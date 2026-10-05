@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué hago con mi vida? | BS AS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+ 
+    <header> 
+        <a href=""><h1> ¿QUÉ HAGO CON MI VIDA? | BS AS </h1></a>
+        <nav>
+            <ul type="none">
+                <li> <a href= "#nosotros"> Nosotros </a></li>
+                <li> <a href= "#servicios"> Servicios </a></li>
+                <li> <a href= "#reseñas"> Reseñas </a></li>
+                <li> <a href= "#contacto"> Contacto </a></li>
+                <li> <a href= "#pie"> Redes </a></li>
+            </ul>   
+            
+
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="nosotros">
+            
+            <div>  
+                <img src="./assets/img/background_image.png" alt=" Actividades en Buenos Aires">
+            </div>  
+            <div>
+            <h2>Acerca de nosotros</h2>
+            <p>
+            Somos los que creemos que a Buenos Aires no se la visita, se la vive. Nos aburre el turismo de pantalla y ventanilla; por eso creamos este proyecto. Queremos ser tus aliados locales para recorrer las calles, comer en los lugares que de verdad valen la pena y sentir la adrenalina de un tango real.
+No viniste a Buenos Aires a ser un simple espectador. Viniste a vivirla. Así que la próxima vez que te preguntes qué hacer con tu vida en esta ciudad indomable, ya sabés la respuesta: SUMATE A NUESTRO GRUPO Y DESCUBRÁMOSLA JUNTOS!!!
+            </p>
+            </div> 
+        </section>
+    
+        <section class="servicios" id="servicios">
+            <h2> Nuestros servicios</h2> 
+            <div>
+
+                <div>
+                    <img src="./assets/img/Walking_tour_image.jpg" alt="">
+                    <h3> Walking Tour </h3>
+                    <a href="" class="boton">Información</a>
+                </div>
+                <div>
+                    <img src="./assets/img/morfy_tour_img.jpg" alt="">
+                    <h3> Morfy Tour </h3>
+                    <a href="" class="boton">Información</a>
+                </div>
+                <div>
+                    <img src="./assets/img/shows.png" alt="">
+                    <h3> Show de Tango </h3>
+                    <a href="" class="boton">Información</a> 
+                </div>
+            </div>
+        </section>
+
+
+<!-- Nueva sección de Reseñas -->
+
+        <section class="reseñas" id="reseñas">
+            <h2>Lo que dicen nuestros viajeros</h2>
+    
+    <!-- Este es el contenedor Grid -->
+
+            <div class="grid-reseñas">
+                
+                <!-- Reseña 1 -->
+                <div class="tarjeta-reseña">
+                    <p class="comentario">"El Walking Tour fue increíble. Conocimos rincones de Buenos Aires que nunca habríamos encontrado en una guía turística. ¡Súper recomendado!"</p>
+                    <h4 class="usuario">- Valeria M.</h4>
+                </div>
+
+                <!-- Reseña 2 -->
+                <div class="tarjeta-reseña">
+                    <p class="comentario">"¡El Morfy Tour es una locura! Comimos la mejor carne de nuestras vidas. Los chicos conocen los verdaderos bodegones de la ciudad."</p>
+                    <h4 class="usuario">- Mateo R.</h4>
+                </div>
+
+                <!-- Reseña 3 -->
+                <div class="tarjeta-reseña">
+                    <p class="comentario">"Reservamos el Show de Tango a través de la web y todo salió perfecto. Una experiencia mágica y muy bien organizada."</p>
+                    <h4 class="usuario">- Camila G.</h4>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="contacto" id="contacto">
+
+            <form action="https://formspree.io/f/xppqaglp" method="post" enctype="">
+                <div>
+
+                    <h2> Si deseas que te contactemos, ingresá tus datos:</h2>
+
+                    <div>
+                        <div>
+                            <label for="">Nombre:</label>
+                            <input type="text" name="name" placeholder="Ingresá tu nombre y Apellido" required>
+                        </div>
+                        <div>
+                            <label for="">Teléfono:</label>
+                            <input type="number" name="phone" placeholder="Ingresá tu número" required>
+                        </div>
+                        <div>
+                            <label for="">Correo:</label>
+                            <input type="email" name="email" placeholder="Ingresá tu email" required>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar" >
+                </div>
+            </form>
+        </section>  
+
+
+    </main>
+    <footer id="pie">
+        <div>
+        
+        <a href=""><img src="./assets/img/instagram.png" alt=""></a>
+        <a href=""><img src="./assets/img/mail.png" alt=""></a>
+        <a href=""><img src="./assets/img/whatsapp.png" alt=""></a>
+        </div>    
+    </footer>
+</body>
+</html>
