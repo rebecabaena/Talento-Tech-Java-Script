@@ -9,6 +9,7 @@ Actualmente, la plataforma se encuentra en su faceta inicial de maquetación y e
 *   **Hero / Inicio:** imagen llamativa y representativa.
 *   **Acerca de nosotros:** Sección de identidad con el manifiesto de la marca.
 *   **Servicios / Tours:** Vitrina inicial de las experiencias (Walking, Food & Tango).
+*   ** Reseñas : Reviews de clientes ficticios, con grids
 *   **Contacto:** Formulario básico para consultas.
 *   **Footer:** Redes sociales
 
